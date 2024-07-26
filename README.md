@@ -1,0 +1,4 @@
+# thalstim-dbcrec_proc-pipeline
+Code for the common data preprocessing pipeline for spike data acquired as part of the ET RO1 Preclinical project
+
+This repo contains code designed to perform data pre-processing of raw data acquired within the Essential Tremor RO1 project of the Johnson lab, in which the Diagnostic Biochips (DBC) DA 128-2 was used to record within either cortex or deep cerebellar nuclei, concurrent with thalamic DBS in NHP subject. Specifically, this code is designed for recovering "cleaned" spike waveform data for spike-time analysis, by tracking bad channels in the DBC array, synchronizing data concurrently acquired across multiple acquisition systems, removing DBS and other artifacts, migrating data to and from the Kilosort environment, and so on. Current project leads are Dr. Edward Bello and Dr. Steven Hoffman. 
